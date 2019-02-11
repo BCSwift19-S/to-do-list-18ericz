@@ -12,6 +12,7 @@
 		E2D256082210D14D00DF6B8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2D256062210D14D00DF6B8F /* Main.storyboard */; };
 		E2D2560A2210D14F00DF6B8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2D256092210D14F00DF6B8F /* Assets.xcassets */; };
 		E2D2560D2210D14F00DF6B8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2D2560B2210D14F00DF6B8F /* LaunchScreen.storyboard */; };
+		E2D2561722110B4F00DF6B8F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D2561622110B4F00DF6B8F /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		E2D256092210D14F00DF6B8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2D2560C2210D14F00DF6B8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E2D2560E2210D14F00DF6B8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2D2561622110B4F00DF6B8F /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DetailViewController.swift; path = ../DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		E2D256012210D14D00DF6B8F /* ToDoList */ = {
 			isa = PBXGroup;
 			children = (
+				E2D2561622110B4F00DF6B8F /* DetailViewController.swift */,
 				E2D256022210D14D00DF6B8F /* AppDelegate.swift */,
 				E2D256042210D14D00DF6B8F /* ViewController.swift */,
 				E2D256062210D14D00DF6B8F /* Main.storyboard */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2D2561722110B4F00DF6B8F /* DetailViewController.swift in Sources */,
 				E2D256052210D14D00DF6B8F /* ViewController.swift in Sources */,
 				E2D256032210D14D00DF6B8F /* AppDelegate.swift in Sources */,
 			);
